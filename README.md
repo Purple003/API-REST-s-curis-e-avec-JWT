@@ -20,6 +20,7 @@ Ce TP guide pas à pas la création d’une API sécurisée avec Spring Boot en 
 6. Configuration de la politique `SessionCreationPolicy.STATELESS`.  
 
 ## Structure du projet
+```
 src/
 └── main/
 ├── java/
@@ -33,6 +34,7 @@ src/
 └── resources/
 ├── application.properties # Configuration DB et sécurité
 └── data.sql # Données initiales*
+```
 
 ## Points importants
 - Les tokens JWT ont une durée de validité de **1 heure** par défaut.  
